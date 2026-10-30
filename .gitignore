@@ -1,0 +1,15 @@
+.venv/
+.cache/
+__pycache__/
+*.py[cod]
+.env
+.env.*
+!.env.example
+~$*
+.DS_Store
+Thumbs.db
+logs/private/
+# Keep only curated evidence; new runs and replays are local.
+results/*
+!results/final/
+!results/stability/

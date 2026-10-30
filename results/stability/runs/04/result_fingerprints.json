@@ -1,0 +1,184 @@
+{
+  "schema_version": 1,
+  "ignored_fields": [
+    "clustering_seconds",
+    "processing_seconds",
+    "seconds"
+  ],
+  "files": {
+    "minimum/cleaned.csv": {
+      "kind": "csv",
+      "sha256": "4d74eca18696dc3b520597fbfb44c9c68924ecb3885898adca97d809ed77364d"
+    },
+    "minimum/quarantine.csv": {
+      "kind": "csv",
+      "sha256": "fe98952793ae7abbf32f2f9d25a6db9fdb31781661c0e3e2aa4dbd8a4d9e5615"
+    },
+    "minimum/changes.csv": {
+      "kind": "csv",
+      "sha256": "ce82b8e183611506760b96a870feda6f54df07c59b6c9c945714d832498ebd21"
+    },
+    "minimum/clusters.csv": {
+      "kind": "csv",
+      "sha256": "d5e0cc5305e0397c164cb121ee51a1160b3cf63c0e88d4685168483509407dbb"
+    },
+    "minimum/cluster_profiles.csv": {
+      "kind": "csv",
+      "sha256": "a627bec7985550873966dc0c0ee35efd22b2fa1629c5efead02234e23c76b365"
+    },
+    "minimum/representative_apps.csv": {
+      "kind": "csv",
+      "sha256": "0974b02f5e237705f4a6eb14d8a5787bc06118e381e8168c26a89be2b880915c"
+    },
+    "minimum/k_candidates.csv": {
+      "kind": "csv",
+      "sha256": "894208fc6f34ae6eaf5ade90cc3f419b89575ea0f22ece9836a8778d5875f838"
+    },
+    "fixed/cleaned.csv": {
+      "kind": "csv",
+      "sha256": "75978dd3672ee37b0786492770b7dd9102495b1f9ac63a07c15f680c254d24f2"
+    },
+    "fixed/quarantine.csv": {
+      "kind": "csv",
+      "sha256": "fe98952793ae7abbf32f2f9d25a6db9fdb31781661c0e3e2aa4dbd8a4d9e5615"
+    },
+    "fixed/changes.csv": {
+      "kind": "csv",
+      "sha256": "d1ada9a560a0a01aeab260c46319ec1aa0722a568676cb797e873bed1a819f38"
+    },
+    "fixed/clusters.csv": {
+      "kind": "csv",
+      "sha256": "7b2323a113d8e31d8c33829c71c53a26c256735cfb5fc4c467ad4a526f464b57"
+    },
+    "fixed/cluster_profiles.csv": {
+      "kind": "csv",
+      "sha256": "aeeb34943d64ed58814004ae2653abdc1d8ae124692dc84b21541054da94b383"
+    },
+    "fixed/representative_apps.csv": {
+      "kind": "csv",
+      "sha256": "9d40b5f2d5b28166c7887d0e8313a2113756816b25e7da348853e1583202b74c"
+    },
+    "fixed/k_candidates.csv": {
+      "kind": "csv",
+      "sha256": "ad0f03b56d029ed09f3480ee4a9b0e7438549ac86d0df357b9d2624bf74d5aa3"
+    },
+    "agent/cleaned.csv": {
+      "kind": "csv",
+      "sha256": "b14766d6463b0080823e4328cbfc8e1273e1ed81894491b05ba853a402b3563f"
+    },
+    "agent/quarantine.csv": {
+      "kind": "csv",
+      "sha256": "fe98952793ae7abbf32f2f9d25a6db9fdb31781661c0e3e2aa4dbd8a4d9e5615"
+    },
+    "agent/changes.csv": {
+      "kind": "csv",
+      "sha256": "a4fb3d419e94a73d125821861fb85ac7f02364151b659aa8ab6fd57e90e75d18"
+    },
+    "agent/clusters.csv": {
+      "kind": "csv",
+      "sha256": "19113460dc0987fc10ff54bc0c4e659b3e7952ed3e527b912506c09b185223d4"
+    },
+    "agent/cluster_profiles.csv": {
+      "kind": "csv",
+      "sha256": "55839e443da91278d31b0d69b68ba309c051d8abb14c0dc2231e9573feb4e5a7"
+    },
+    "agent/representative_apps.csv": {
+      "kind": "csv",
+      "sha256": "50e722a148b57ad360c2c00fc30af32b1d0b927804162bd88e92365529522971"
+    },
+    "agent/k_candidates.csv": {
+      "kind": "csv",
+      "sha256": "c80fbdfac06b125578ccd22423a044c0ae14d636be2bf5437de70141d6ea754a"
+    },
+    "comparison.csv": {
+      "kind": "csv",
+      "sha256": "d0c16352f047722cfbeea84e25c01c5fa6fe5866c2ea866a7c9d1673a187a9ca"
+    },
+    "common_metrics.csv": {
+      "kind": "csv",
+      "sha256": "227d388477c667271402c986c16fecabef663fdbd916029f64f83e9d049a4262"
+    },
+    "common_group_ari.csv": {
+      "kind": "csv",
+      "sha256": "de47ff210344377a73875f91299ae2cf38fccb9697d7529541a48977e6a8f061"
+    },
+    "common_seed_stability.csv": {
+      "kind": "csv",
+      "sha256": "78619590b3942902578b9379ea50047d6f0fa0f10ac98d359b0994a97bf7cdaa"
+    },
+    "fixed/centers_standardized.csv": {
+      "kind": "csv",
+      "sha256": "1150a81f0fe88dedbc16ec216dcfb088304fac1e88377a8e6f6b553884089546"
+    },
+    "minimum/quality_after.json": {
+      "kind": "json",
+      "sha256": "09093ee9cd5dbda91f5cc51ff7ef2babc81bffcc4f861f1de613b43ec316ccff"
+    },
+    "minimum/selected_model.json": {
+      "kind": "json",
+      "sha256": "e0568d69487daa25748947f7957448442d4cbadb5b7390eb2c6a58e2e3cdb74f"
+    },
+    "fixed/quality_after.json": {
+      "kind": "json",
+      "sha256": "ef8b156aa3aeb972dd891ead5ce7b29d435271b9812bb03c914f6b3fcbeca6b3"
+    },
+    "fixed/selected_model.json": {
+      "kind": "json",
+      "sha256": "f534553c708a22b069f3bf1fa7ecbe8fc69b8b9e81ac9b95d174098441c3190b"
+    },
+    "agent/quality_after.json": {
+      "kind": "json",
+      "sha256": "8ca1bee8de5b8c0f90fde483c717e09ef100e4967fff3cf53251ddc8d9cb1bab"
+    },
+    "agent/selected_model.json": {
+      "kind": "json",
+      "sha256": "14fb3f5e86415318e425c6263a7feed7cb20a60d3373ac7b81c7916e8f8ab9fb"
+    },
+    "quality_before.json": {
+      "kind": "json",
+      "sha256": "bafb5fb28e16a06bd3b2dcd3940b24381e933c6545f8b8111da31ac76daff8c2"
+    },
+    "shared_scaler.json": {
+      "kind": "json",
+      "sha256": "d898505669356bb94fc50182971447a2a2f6855ce5eea95460c2c042c6ca9a1a"
+    }
+  },
+  "source_archive_sha256": "24dff84f9f5e3c884241f40228457aa8c8901b3248d284093094d0f6ca4ff49f",
+  "source_directory": "原始运行记录/run_04_attempt_01",
+  "source_file_sha256": {
+    "minimum/cleaned.csv": "a5b54eb2a7d50ea0cc8ca0596efde5e16a943f490ab170a00ff7e31b2bd3364e",
+    "minimum/quarantine.csv": "730e4d600c819e68d47a67c4506ebb5aeab7f67806b8268e1770455325fdd719",
+    "minimum/changes.csv": "60c9d3ee33c32c9bb149b26a3f15b3756e7d7660f2bdbad6f0c79931fa553c35",
+    "minimum/clusters.csv": "1c4385834febbfdcb94255433192b0668f1e9fe1f1ff301a04f6193efd102aeb",
+    "minimum/cluster_profiles.csv": "48ac4eb403448d2af31d21fb4cc1c1c17a026599150b5375a0af6969b610ebf6",
+    "minimum/representative_apps.csv": "9fdb7c3a0f1c496fdc7059456e8bc273adcadb8b4341da9912c5a0c3c21ee058",
+    "minimum/k_candidates.csv": "f6a39612d4eebbcd4da5174e931ca939a88b0adcfea72387fb2ebde33a752a1d",
+    "fixed/cleaned.csv": "80a476a3496b2298861188a97b19027d6c7643b4f93ee6848d683597e1e54693",
+    "fixed/quarantine.csv": "730e4d600c819e68d47a67c4506ebb5aeab7f67806b8268e1770455325fdd719",
+    "fixed/changes.csv": "b60346c4049373d76403155a790634b23dd2277881925acade080acbc881d518",
+    "fixed/clusters.csv": "8a7844544ac2d8c30ebaf6e0ab916d58d1a7f1f2b11c79fa49cd4054141bb094",
+    "fixed/cluster_profiles.csv": "6817c15960a706de9d83d906cb4b8598a15e416f7500f4f25e84a9bebbeb2da5",
+    "fixed/representative_apps.csv": "432c0b5815089a2bd4f81e2ca0a1a11e239a1cd728908bee1d0ef4e387fae16f",
+    "fixed/k_candidates.csv": "7d19478e8aacffcb9de9e96b78b4e538f62ed6cee7116ba1e047ece43b24d630",
+    "agent/cleaned.csv": "bb19bed937e9469ed600391628d70ff8ac616cc1c65d9831e3e0c2b80735bfa5",
+    "agent/quarantine.csv": "730e4d600c819e68d47a67c4506ebb5aeab7f67806b8268e1770455325fdd719",
+    "agent/changes.csv": "56ff94fae4e0d4aec6e1d8b83fcc4dd0325a75fb261e56569f5644464121d4a4",
+    "agent/clusters.csv": "fc9902241f72a2d091a0554ed05a24be9d40f53517b4cce5c0bd8cc697232f85",
+    "agent/cluster_profiles.csv": "a0cbc9309f0c8627458fd5912ca40037519f0985a62ef1c45cc84f649fc31237",
+    "agent/representative_apps.csv": "9115220c9b4a7a3cd4c66bec42d2285a84703b5b930680e1bc679d4b2bf9809b",
+    "agent/k_candidates.csv": "571c956032766db4436324aab02a2dd67e14f22d247acd461ddf4db4f2d4a3b4",
+    "comparison.csv": "7b79540f406cae40a6f73b661e5c1584c0ace140745b8161945fa07ff6cb1506",
+    "common_metrics.csv": "cd48a74311d147f9e03a79239de48249b351bd7178e38006ce7d94e819262c8f",
+    "common_group_ari.csv": "6961d7502a6889a4fb8a00093bbfb298ca31b00585453d73574bd9a3eae09241",
+    "common_seed_stability.csv": "9e166d4fed894cc6dee2b967e39cec4da912ea41adaec61ed7b19501339a28d6",
+    "fixed/centers_standardized.csv": "62f4229b8c46be3bce92d80bff6e04018c66d37f687885653768ee1b910d4496",
+    "minimum/quality_after.json": "84ddf6578681c3e66ea986f9861e0b044ba9718731a91be3e047000b308ee5f2",
+    "minimum/selected_model.json": "53d3f4da0f3d2960eaa896abf74a8b05b068fa0bc9a14010424dd0361173fb73",
+    "fixed/quality_after.json": "ee8d185713104a34e22b5a36b4a47b63acec216da7ec8834291242562a37a549",
+    "fixed/selected_model.json": "0090a5b3ca0096e62a6ca007abf9fce5bb3115575b3285f25e75d9a7ac3b3223",
+    "agent/quality_after.json": "2081caa03b78e7bc8bb5348aead84dc66fa5dff01f1c23b881e860b4c44e1f10",
+    "agent/selected_model.json": "67082f04df8ad2b246c05105f48fa0fa8b84e820e599e7c5222f3e91c818a3e8",
+    "quality_before.json": "76eb9d6b904ec6fe72621a52a05d77e9e3b36da45e0f64c3cc1c1a0ddaab178f",
+    "shared_scaler.json": "96e6296590d502261d609321d28c299ce9d49850c1b6f575a5c6bebd7e346620"
+  }
+}

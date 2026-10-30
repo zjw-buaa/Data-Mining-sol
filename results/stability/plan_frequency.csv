@@ -1,0 +1,3 @@
+﻿完整计划,次数,总数,占比,是否与主实验完整计划一致
+"{""deduplicate"": true, ""rating"": ""drop"", ""size"": ""category_median""}",1,3,0.3333333333333333,True
+"{""deduplicate"": true, ""rating"": ""drop"", ""size"": ""drop""}",2,3,0.6666666666666666,False

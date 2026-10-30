@@ -1,0 +1,4 @@
+﻿run_a,run_b,common_rows,common_k,adjusted_rand_index,max_abs_feature_difference
+2,3,7424,4,1.0,0.0
+2,4,7424,4,1.0,0.0
+3,4,7424,4,1.0,0.0

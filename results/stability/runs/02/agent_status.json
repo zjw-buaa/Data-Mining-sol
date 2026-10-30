@@ -1,0 +1,24 @@
+{
+  "status": "completed",
+  "real_model_called": true,
+  "calls": 1,
+  "requested_model": "deepseek-flash",
+  "returned_model": "deepseek-flash",
+  "prompt_tokens": 1180,
+  "completion_tokens": 187,
+  "cost_usd": null,
+  "cost_note": "未知报价或usage缺失时不估造费用",
+  "seconds": 2.2279750000016065,
+  "validated_plan": {
+    "policy": {
+      "deduplicate": true,
+      "rating": "drop",
+      "size": "drop"
+    },
+    "reasons": {
+      "deduplicate": "存在483条完全重复的多余记录，因此移除完全重复项；相同App名称的行不按名称合并，因为App名称不是经过验证的唯一实体标识符。",
+      "rating": "有1474条评分缺失，其中878条仍有正向评论；对缺失值不推断原因，不填充中位数（仅按全局或分类中位数填补会制造未观测值），因此将缺失评分记录不参与聚类，但仍保留在cleaned档案中。",
+      "size": "有1695条Size为“Varies with device”、1条非法，需保留为特殊大小状态并单独处理，不能当作-1或0；单位已严格解析（M/k），但这些记录没有可比较的固定数值大小，因此不参与聚类并保留在cleaned档案中。"
+    }
+  }
+}

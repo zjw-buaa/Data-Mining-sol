@@ -1,0 +1,24 @@
+{
+  "status": "completed",
+  "real_model_called": true,
+  "calls": 1,
+  "requested_model": "deepseek-flash",
+  "returned_model": "deepseek-flash",
+  "prompt_tokens": 1180,
+  "completion_tokens": 182,
+  "cost_usd": null,
+  "cost_note": "未知报价或usage缺失时不估造费用",
+  "seconds": 1.780742899994948,
+  "validated_plan": {
+    "policy": {
+      "deduplicate": true,
+      "rating": "drop",
+      "size": "category_median"
+    },
+    "reasons": {
+      "deduplicate": "存在483条完全重复的多余记录，删除它们可保留唯一的原始档案，且不会合并同名的不同应用。",
+      "rating": "1474条记录的评分缺失，其中878条带有正评论数；按固定安全处理，不推断缺失原因，也不以数值方式大批量删除，仅将缺失或无效评分的记录从聚类中排除。",
+      "size": "大小字段混有M、k、Varies等状态；Varies是特殊状态，不能当作数值参与计算。明显非法或错位的大小核心值已隔离，而Varies和缺失记录不适合用中位数填充，因此按类别取中位数（同类别有效观测不足20时回退全局中位数），以保留cleaned档案供聚类使用。"
+    }
+  }
+}

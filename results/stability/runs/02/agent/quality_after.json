@@ -1,0 +1,52 @@
+{
+  "group": "agent",
+  "raw_rows": 10841,
+  "quarantined_rows": 1,
+  "exact_duplicates_removed": 483,
+  "cleaned_rows": 10357,
+  "cluster_rows": 7424,
+  "cleaned_retention": 0.9553546720782216,
+  "cluster_retention": 0.6848076745687667,
+  "rating_imputed": 0,
+  "size_imputed": 0,
+  "remaining_exact_duplicates": 0,
+  "observed_rating_missing": 1465,
+  "observed_size_unavailable": 1526,
+  "remaining_missing_all_original_columns": {
+    "App": 0,
+    "Category": 0,
+    "Rating": 1465,
+    "Reviews": 0,
+    "Size": 0,
+    "Installs": 0,
+    "Type": 1,
+    "Price": 0,
+    "Content Rating": 0,
+    "Genres": 0,
+    "Last Updated": 0,
+    "Current Ver": 8,
+    "Android Ver": 2
+  },
+  "remaining_invalid_core_rows": 0,
+  "remaining_date_failures": 0,
+  "remaining_type_price_conflicts": 0,
+  "cluster_invalid_or_missing_features": 0,
+  "processing_seconds": 0.1496670999986236,
+  "policy": {
+    "deduplicate": true,
+    "rating": "drop",
+    "size": "drop"
+  },
+  "imputation_parameters": {
+    "rating": {
+      "strategy": "drop",
+      "affected": 1465,
+      "global_median": 4.3
+    },
+    "size": {
+      "strategy": "drop",
+      "affected": 1526,
+      "global_median": 13.0
+    }
+  }
+}
